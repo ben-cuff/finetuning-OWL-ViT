@@ -1,12 +1,12 @@
-# OWL-ViT COCO Evaluation - CPSC4420
+# OWL-ViT TLD Evaluation - CPSC4420
 
 ## Setup
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ben-cuff/owl-vit-cpsc4420.git
-cd owl-vit-cpsc4420
+git clone https://github.com/ben-cuff/finetuning-OWL-ViT.git
+cd finetuning-OWL-ViT
 ```
 
 ### 2. Create Virtual Environment
@@ -22,24 +22,8 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Download COCO Dataset
+### 4. Download TLD Dataset
 
-```bash
-# Download validation images (778MB)
-wget http://images.cocodataset.org/zips/val2017.zip
-unzip val2017.zip
-
-# Download annotations (241MB)
-wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
-unzip annotations_trainval2017.zip
-```
-
-```bash
-# Download validation images
-curl -O http://images.cocodataset.org/zips/val2017.zip
-unzip val2017.zip
-
-# Download annotations
-curl -O http://images.cocodataset.org/annotations/annotations_trainval2017.zip
-unzip annotations_trainval2017.zip
+```website
+https://huggingface.co/datasets/ChaiJohn/TLD/tree/main
 ```
