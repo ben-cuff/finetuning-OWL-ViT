@@ -16,7 +16,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+/artifacts/*
 .ipynb_checkpoints
 
 .DS_Store
