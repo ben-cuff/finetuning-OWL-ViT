@@ -1,5 +1,6 @@
 val2017/
 annotations/
+artifacts/*
 
 *.zip
 annotations_trainval2017.zip
