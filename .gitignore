@@ -28,3 +28,4 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 .env
+temp.py
